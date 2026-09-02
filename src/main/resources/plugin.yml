@@ -1,0 +1,17 @@
+name: DisplayNameColor
+version: '1.0.0'
+main: com.tu.dnc.DisplayNameColorPlugin
+api-version: '1.21'
+author: Tu
+description: Quan ly ten mau (gradient) tuy chinh cho nguoi choi, tich hop TAB/PlaceholderAPI
+softdepend: [PlaceholderAPI, LuckPerms]
+
+commands:
+  dnc:
+    description: Quan ly va su dung Display Name Color
+    usage: /dnc [create|remove|test|setpermission|list|info|edit|reload]
+
+permissions:
+  dnc.admin:
+    description: Toan quyen quan ly DisplayNameColor (create/remove/edit/setpermission/reload)
+    default: op
